@@ -111,3 +111,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 STATIC_URL = '/static/'
 STATIC_ROOT = posixpath.join(*(BASE_DIR.split(os.path.sep) + ['static']))
+
+ALLOWED_HOSTS = ['reizendoorderepubliek-dev.rich.ru.nl', 'reizendoorderepubliek.rich.ru.nl', 'localhost']
