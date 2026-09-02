@@ -1,10 +1,16 @@
 {% extends "app/layout.html" %}
-
+{% load static %}
 {% block content %}
+<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:100,400,400i,600,800" rel="stylesheet">
 
 <div class="jumbotron">
-    <h1>Django</h1>
-    <p class="lead">Django is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
+    <h1>Reizen door de Republiek</h1>
+    <p class="lead">
+    Django is a free web framework for building great Web sites 
+    and Web applications using HTML, CSS and JavaScript.
+    </p>
     <p><a href="https://www.djangoproject.com/" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
 </div>
 
@@ -27,6 +33,16 @@
         <h2>Microsoft Azure</h2>
         <p>You can easily publish to Microsoft Azure using Visual Studio. Find out how you can host your application using a free trial today.</p>
         <p><a class="btn btn-default" href="http://azure.microsoft.com">Learn more &raquo;</a></p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-3">
+        <!-- Image -->
+        <a href="https://www.ru.nl/radboud-institute-for-culture-history" target="_blank" style="margin: 5px;">
+            <img src="/static/app/content/RU_logo_NL.png" style='max-width: 450px; width: auto; height: auto;' title="Radboud Universiteit" />
+        </a>
+
     </div>
 </div>
 
