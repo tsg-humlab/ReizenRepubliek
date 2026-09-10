@@ -52,12 +52,11 @@ def project1(request):
         request,
         'app/project1.html',
         {
-            'title':'Nieuws data',
+            'title':'VOC en WIC',
             'message':'Your application description page.',
             'year':datetime.now().year,
-            'intro':'Introduction',
-            'graphs':'Graphs',
-            'context':'Context',
+            'benmat':'Benodigd materiaal',          
+            'algleer':'Algemene leerdoelen',            
             'pdf':'Link to PDF article',        
 
 
@@ -71,12 +70,11 @@ def project2(request):
         request,
         'app/project2.html',
         {
-            'title':'Twitter',
+            'title':'Latijn: vroeger en nu',
             'message':'Your application description page.',
             'year':datetime.now().year,
-            'intro':'Introduction',
-            'graphs':'Graphs',
-            'context':'Context',
+            'benmat':'Benodigd materiaal',          
+            'algleer':'Algemene leerdoelen',   
             'pdf':'Link to PDF article',        
 
         }

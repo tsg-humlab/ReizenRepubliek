@@ -3,22 +3,38 @@
 {% block content %}
 <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
 
-<h2>{{ title }}</h2>
-<h3>{{ message }}</h3>
+<h1>{{ title }}</h1>
 
-
-
-<h3>{{ intro }}</h3>
-<h3>{{ graphs }}</h3>
+<p>Nederlands, Geschiedenis • Les</p>
 
 <body>
-    <img src="{% static 'app/content/graph1.jpg' %}" style='max-width: 600px; width: auto; height: auto;'
+    <img src="{% static 'app/content/images/VOC.jpg' %}" style='max-width: 850px; width: auto; height: auto;'
          title="Graph 1, CC BY-NC 2.0 Deed" />
 </body>
 
-
-
-<h3>{{ context }}</h3>
-<h3>{{ pdf }}</h3>
-
+<div class="row">
+    <div class="col-md-8">
+        <h3>{{ benmat }}</h3>
+        <br />
+        <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+            nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
+            enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
+            nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in
+            hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat
+            nulla facilisis at vero eros et accumsan et
+        </p>        
+        <br />
+        <h3>{{ algleer }}</h3>
+        <br />
+        <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+            nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
+            enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
+            nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in
+            hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat
+            nulla facilisis at vero eros et accumsan et
+        </p>
+    </div>
+</div>
 {% endblock %}

@@ -6,32 +6,74 @@
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,400,400i,600,800" rel="stylesheet">
 
 <div class="jumbotron">
-    <h1>Reizen door de Republiek</h1>
+    <h1>Vondst, de Reis van Joachim</h1>
     <p class="lead">
-    Django is a free web framework for building great Web sites 
-    and Web applications using HTML, CSS and JavaScript.
+        Je kunt nu de reis van Joachim volgen.
+        Klik op een stad en je ziet dan een
+        overzicht van de beschikbare lessen.
     </p>
     <p><a href="https://www.djangoproject.com/" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
 </div>
 
 <div class="row">
     <div class="col-md-4">
-        <h2>Getting started</h2>
+        <h2><p><a href="{% url 'project1' %}">VOC en WIC</a></p></h2>
+        <body>
+            <img src="{% static 'app/content/images/VOC.jpg' %}" style='max-width:350px; width: auto; height: auto;' />
+        </body>
+        <br />
+        <p>Nederlands, Geschiedenis • Les</p>
+        <br />
         <p>
-            Django gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="https://djangobook.com/django-tutorials/">Learn more &raquo;</a></p>
+            Zowel de Verenigde Oostindische
+            Compagnie (VOC) als de West-Indische
+            Compagnie (WIC) werd aan het begin van
+            de zeventiende eeuw opgericht op
+            initiatief van de Staten-Generaal – het
+            hoogste bestuursorgaan in de Republiek
+            der Zeven Verenigde Nederlanden.
+            Hoewel beide handelscompagnieën een
+        </p>        
+       
     </div>
     <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>The Python Package Index is a repository of software for the Python programming language.</p>
+        <h2><p><a href="{% url 'project2' %}">Latijn: vroeger en nu</a></p></h2>
+        <body>
+            <img src="{% static 'app/content/images/LAT.jpg' %}" style='max-width:350px; width: auto; height: auto;' />
+        </body>
+        <br />
+        <p>Nederlands, Latijn • Les</p>
+        <br />
+        <p>
+            Op het gymnasium leer je Latijn en
+            Grieks. Deze premisse klinkt heel simpel,
+            maar welk Latijn en Grieks leer je
+            eigenlijk? Met Oudgrieks dat je op
+            Nederlandse scholen krijgt, kun je je in
+            het hedendaagse Athene niet redden,
+            net zomin als dat het Latijn dat je
+            bestudeert nog een grote rol speelt in
+        </p>
         <p><a class="btn btn-default" href="https://pypi.org/">Learn more &raquo;</a></p>
     </div>
     <div class="col-md-4">
-        <h2>Microsoft Azure</h2>
-        <p>You can easily publish to Microsoft Azure using Visual Studio. Find out how you can host your application using a free trial today.</p>
+        <h2>VOC en WIC</h2>
+        <body>
+            <img src="{% static 'app/content/images/VOC.jpg' %}" style='max-width:350px; width: auto; height: auto;' />
+        </body>
+        <br />
+        <p>Nederlands, Geschiedenis • Les</p>
+        <br />
+        <p>
+            Zowel de Verenigde Oostindische
+            Compagnie (VOC) als de West-Indische
+            Compagnie (WIC) werd aan het begin van
+            de zeventiende eeuw opgericht op
+            initiatief van de Staten-Generaal – het
+            hoogste bestuursorgaan in de Republiek
+            der Zeven Verenigde Nederlanden.
+            Hoewel beide handelscompagnieën een
+        </p>
         <p><a class="btn btn-default" href="http://azure.microsoft.com">Learn more &raquo;</a></p>
     </div>
 </div>

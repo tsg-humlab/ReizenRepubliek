@@ -2,98 +2,39 @@
 {% load static %}
 {% block content %}
 
-<h2>{{ title }}</h2>
-<h3>{{ message }}</h3>
+<h1>{{ title }}</h1>
 
 
-<h3>{{ intro }}</h3>
-<h3>{{ graphs }}</h3>
-<h3>{{ context }}</h3>
-<h3>{{ pdf }}</h3>
+<p>Nederlands, Latijn • Les</p>
+
+<body>
+    <img src="{% static 'app/content/images/LAT.jpg' %}" style='max-width: 850px; width: auto; height: auto;'
+         title="Graph 1, CC BY-NC 2.0 Deed" />
+</body>
 
 <div class="row">
-    <div class="col-md-3">
-        <body>
-            <img src="{% static 'app/content/graph1.jpg' %}" style='max-width:200px; width: auto; height: auto;' />
-        </body>
-        <p>You can easily publish to Microsoft Azure using Visual Studio. Find out how you can host your application using a free trial today.</p>
-    </div>
-    <div class="col-md-1">
-        <h2></h2>
-        <p>
-
-        </p>
-    </div>
-    <div class="col-md-3">
-        <h3>Project 3</h3>
-        <body>
-            <img src="{% static 'app/content/graph1.jpg' %}" style='max-width:250px; width: auto; height: auto;' />
-        </body>
-        <br />
-        <p>You can easily publish to Microsoft Azure using Visual Studio. Find out how you can host your application using a free trial today.</p>
+    <div class="col-md-8">
+        <h3>{{ benmat }}</h3>
         <br />
         <p>
-            You can easily publish to Microsoft Azure using Visual Studio. Find out how you can host your application using a free trial today.
-            You can easily publish to Microsoft Azure using Visual Studio. Find out how you can host your application using a free trial today.
-            You can easily publish to Microsoft Azure using Visual Studio. Find out how you can host your application using a free trial today.
-            You can easily publish to Microsoft Azure using Visual Studio. Find out how you can host your application using a free trial today.
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+            nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
+            enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
+            nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in
+            hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat
+            nulla facilisis at vero eros et accumsan et
         </p>
-    </div>
-    <div class="col-md-1">
-        <h2></h2>
+        <br />
+        <h3>{{ algleer }}</h3>
+        <br />
         <p>
-
-        </p>
-    </div>
-    <div class="col-md-3">
-        <h2>Project 3</h2>
-        <p>
-            You can easily publish to Microsoft Azure using Visual Studio. Find out how you can host your application using a free trial today.
-            You can easily publish to Microsoft Azure using Visual Studio. Find out how you can host your application using a free trial today.
-            You can easily publish to Microsoft Azure using Visual Studio. Find out how you can host your application using a free trial today.
-            You can easily publish to Microsoft Azure using Visual Studio. Find out how you can host your application using a free trial today.
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+            nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
+            enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
+            nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in
+            hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat
+            nulla facilisis at vero eros et accumsan et
         </p>
     </div>
 </div>
-
-
-
-
-
-<div class="row">
-    <div class="col-md-4">
-        <body>
-            <img src="{% static 'app/content/graph1.jpg' %}" style='max-width:200px; width: auto; height: auto;' />
-        </body>
-        <p>You can easily publish to Microsoft Azure using Visual Studio. Find out how you can host your application using a free trial today.</p>
-    </div>
-
-    <div class="col-md-4">
-        <h2>Project 3</h2>
-        <p>
-            You can easily publish to Microsoft Azure using Visual Studio. Find out how you can host your application using a free trial today.
-            You can easily publish to Microsoft Azure using Visual Studio. Find out how you can host your application using a free trial today.
-            You can easily publish to Microsoft Azure using Visual Studio. Find out how you can host your application using a free trial today.
-            You can easily publish to Microsoft Azure using Visual Studio. Find out how you can host your application using a free trial today.
-        </p>
-        <body>
-            <img src="{% static 'app/content/graph1.jpg' %}" style='max-width:200px; width: auto; height: auto;' />
-        </body>
-        <p>You can easily publish to Microsoft Azure using Visual Studio. Find out how you can host your application using a free trial today.</p>
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-md-4">
-        <h2>Project 3</h2>
-        <p>
-            You can easily publish to Microsoft Azure using Visual Studio. Find out how you can host your application using a free trial today.
-            You can easily publish to Microsoft Azure using Visual Studio. Find out how you can host your application using a free trial today.
-            You can easily publish to Microsoft Azure using Visual Studio. Find out how you can host your application using a free trial today.
-            You can easily publish to Microsoft Azure using Visual Studio. Find out how you can host your application using a free trial today.
-        </p>
-    </div>
-
-</div>
-
 {% endblock %}

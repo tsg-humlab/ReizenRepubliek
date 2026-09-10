@@ -338,15 +338,15 @@ textarea {
 }
 
 a {
-  color: #428bca;
-  text-decoration: none;
+    color: #730E04;
+    text-decoration: none;
 }
 
-a:hover,
-a:focus {
-  color: #2a6496;
-  text-decoration: underline;
-}
+    a:hover,
+    a:focus {
+        color: #730E04;
+        text-decoration: underline;
+    }
 
 a:focus {
   outline: thin dotted #333;
@@ -2321,12 +2321,12 @@ fieldset[disabled] .btn-link {
   border-color: transparent;
 }
 
-.btn-link:hover,
-.btn-link:focus {
-  color: #2a6496;
-  text-decoration: underline;
-  background-color: transparent;
-}
+    .btn-link:hover,
+    .btn-link:focus {
+        color: #730E04;
+        text-decoration: underline;
+        background-color: transparent;
+    }
 
 .btn-link[disabled]:hover,
 fieldset[disabled] .btn-link:hover,
@@ -4018,8 +4018,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .nav a:hover .caret {
-  border-top-color: #2a6496;
-  border-bottom-color: #2a6496;
+    border-top-color: #730E04;
+    border-bottom-color: #730E04;
 }
 
 .nav-tabs .dropdown-menu {
